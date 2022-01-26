@@ -1,0 +1,163 @@
+header{
+    height: 100px;
+    width: 100%;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    font-size: 50px;
+    color: pink;
+    border-color: white;
+    background-color: white;
+    border-radius: 2px;
+    text-decoration: none;
+    transition-property: backkground-color;
+    text-decoration: .5s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+}
+
+.btn:hover{
+    background-color: palevioletred;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+}
+
+.main{
+    background-color: #D3B48C;
+    margin: 0 50px 0 50px;
+    color: white
+}
+
+.Profile{
+    margin: 0 40px 40px 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    }
+
+h1{
+    color: #D3D3D3;
+    font-size: 50px;
+    animation: bigger-font 2s linear .3s infinite normal forwards;
+}
+
+@keyframes bigger-font{
+    form{
+        font-size: 35px;
+    }
+to{
+    font-size: 40px;
+}
+
+}
+
+h6{
+text-align: center;
+font-weight: 5px;
+font-size: 50px;
+}
+
+.small{
+    color: purple;
+    font-size: 50px;
+}
+
+.cook img{
+    height: 300px;
+    width: 300px;
+    margin: 10px 80px 10px 80px;
+}
+
+
+
+h2{
+    color: #D3D3D3;
+    font-size: 50px;
+    text-align: center;
+}
+
+.cook2 li{
+    text-align: center;
+    font-size: 17px;
+    display: inline;
+margin: 50px 150px 50px 150px;
+}
+
+.golf img{
+    height: 400px;
+    width: 300px;
+    margin: 50px 100px 50px 100px;
+}
+.golf{
+    display: flex;
+    flex-direction: row-reverse;
+align-items: center;
+font-size: 30px;
+
+}
+h3{
+    color: #D3D3D3;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.PetDog img{
+ height: 450px;
+ width: 400px;
+ margin: 10px 200px 10px 200px;
+border-radius: 50%;
+}
+
+.dog{
+display: flex;
+    flex-direction: row;
+align-items: center;
+font-size: 30px;
+text-align: start;
+
+}
+.dog2{
+    display: flex;
+    flex-direction: row;
+align-items: center;
+font-size: 30px;
+text-align: start;
+margin: 0 50px 0px 300px;
+
+}
+
+h4{
+    font-size: 30px;
+    margin: 20px 50px 20px 20px;
+}
+
+h5{
+    font-size: 30px;
+    margin: 20px 20px 20px 20px;
+}
+
+.Favorite img{
+    height: 300px;
+    width: 600px;
+}
+
+.Favorite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;      
+}
+
+.Favorite{
+    font-size: 40px;
+    text-align: center;
+    color: #D3D3D3;
+}
